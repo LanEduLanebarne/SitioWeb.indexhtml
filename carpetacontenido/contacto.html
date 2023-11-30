@@ -1,0 +1,70 @@
+<!--
+Autor:Edurne Martinez de Morentin
+Fecha:29-11-23
+Módulo:LMGSI
+UD:02-Desarrollo web con HTML5 y CSS3
+Tarea:Sitio Web
+Página 6.Contacto.
+Enlace a autoevaluación:
+-->   
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>GO MAKE-UP</title>
+        <meta name="keywords" content="maquillaje;productos maquillaje">
+        <link rel="stylesheet" href="../carpetaestilos/estilos.css">  <!--Se enlaza hoja de estilos css-->
+    </head>
+
+    <body>
+    <header>
+         <!--Se definen distintos estilos para la cabecera-->
+        <h1>~CONTACTO~</h1>
+    </header>
+    <nav class="nav"> <!--Menú de navegación-->
+        <a href="../index.html">INICIO</a>
+        <a href="productos.html">PRODUCTOS</a>
+        <a href="noticias.html">NOTICIAS</a>
+        <a href="contacto.html">CONTACTO</a>
+       
+    </nav>
+    <hr>  
+    <main> <!--Contenido principal de la página-->
+        <section class="formulario">
+            <form action="mailto:emartinezdemorentin@birt.eus" method="post" class="formulario">
+                <h4>NOMBRE</h4>
+                <input type="text" name="nombre" class="form-datos">
+                <br>
+                <h4>APELLIDOS</h4>
+                <input type="text" name="apellidos" class="form-datos">
+                <br>
+                <h4>MAIL</h4>
+                <input type="text" name="mail" class="form-datos">
+                <br>
+                <h4>CONSULTA</h4>
+                <select name="Motivo" class="form-datos">
+                    <option value="Pedidos">Pedidos</option>
+                    <option value="Contraseña">Contraseña</option>
+                    <option value="Mi cuenta">Mi cuenta</option>
+                    <option value="Publicidad">Publicidad</option>
+                </select>  
+                <input type="submit" value="enviar" class="boton">  
+            </form>
+        </section>
+        <aside class="redes">
+            <h4>~REDES SOCIALES~</h4>
+            <ul class="ul-form">
+                <li><a href="https://es-es.facebook.com/">Facebook<img class="logo-img"src="../imagenes/logofacebook.jpg"></a></li><br>
+                <li><a href="https://www.instagram.com/">Instagram<img class="logo-img"src="../imagenes/logoinstagram.png"></a></li><br>
+                <li><a href="https://twitter.com/">Twitter<img class="logo-img"src="../imagenes/logotwitter.jpeg"></a></li><br>
+            </ul>
+
+        </aside>
+    </main>              
+    <footer class="piepagina">  <!--Pie de la página-->
+        <p>~Página web creada por Edurne Martínez de Morentin con fines educativos.Todos los derechos de las imagenes están reservados y pertenecen a sus autores~</p>
+    </footer>
+    
+    </body>
+</html>    

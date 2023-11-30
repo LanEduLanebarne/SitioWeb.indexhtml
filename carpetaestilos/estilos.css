@@ -1,0 +1,419 @@
+/*
+Autor:Edurne Martínez de Morentin
+Fecha:29-11-2023
+Módulo:LMGSI
+UD:02-Desarrollo web con HTML5 y CSS3
+Tarea:Sitio Web
+Hoja de estilos CSS
+Enlace a autoevaluación:
+*/
+
+
+
+
+/*Estilos página 1-Index.html*/
+
+/*Se definen los elementos dentro de 'article'*/
+.contenido{
+    background-color: cornsilk;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;         
+}
+h5{
+    color: indianred;
+    font-size: 30px;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+.presentacion{
+    flex: 50%;
+}   
+
+/*------------------------------------------*/
+
+.estilogeneral{
+    padding: 20px;
+    display: block;      
+}
+
+.bajoarticle{
+    padding: 40px 10px;
+    display:block;
+    align-items: flex-end;
+}
+
+
+aside{
+    flex: 50%;
+    padding: 20px 0;
+    margin: 20px;
+    border-radius: 10px;
+    background-color:cornsilk;         
+}
+
+/*Se definen los elementos dentro de 'aside'*/
+
+h5{
+    text-align: center;
+}
+
+.enlaces{
+    
+    text-decoration:dashed;
+    font-size:larger;
+    font-style: italic;
+    padding: 20px;
+    margin-left: 20px;
+    color: blueviolet;
+}
+
+.enlaces:hover {
+    transform: scale(1.2); /* Cambia la escala al pasar el ratón sobre la imagen */
+}
+
+aside img{
+    float: right;
+    padding: 20px 10px 10px 30px;
+    margin-right: 15%;
+}    
+
+.imagen{
+    width: 50%;
+    height: auto;   
+}
+
+
+/*---------------------------------------------*/  
+      
+
+/*Estilos página 2-Productos.html*/
+/*Se da estilo a Section*/
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 400px;
+    width: auto;
+}
+
+.elemento{
+    text-decoration: underline;
+    left:30px;
+    justify-content: flex-start;
+    font-size: larger;
+    color: indianred;
+}
+
+.grid-imagenes{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 40% 40%;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.diseño-aside{
+    flex: 25%;
+    background-color:lightpink;
+    padding: 25px;
+    border-radius: 10px;
+    border:solid chocolate;
+    margin-right: 80px;
+}
+
+.imagen-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+aside h3{
+    text-align: center;
+    text-decoration: double underline;
+    font-style: oblique;
+}
+/*-----------------------------------------------------*/
+
+/*Estilo para el elemento 'span'*/
+
+.resaltado{
+    color: blueviolet;
+    text-decoration-line: underline;
+    font-style: oblique;     
+}
+/*----------------------------------------------*/
+
+/*Estilos página 3 y 4-Coloretes.html*/
+
+.definicion{
+    display: inline-block;  
+    padding: 20px 30px;     
+}
+.coloretedif{
+   
+    margin: 25px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid brown;
+    align-items: center;
+    display: inline-block;
+    background-color:ivory;
+    justify-content:space-between;
+    text-align:center;
+}
+
+.titulo{
+    color: brown;
+    font-weight: bolder;
+    font-style: oblique;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.foto{
+    align-items: baseline;
+    padding: 10px;
+    width: auto;
+    border: none;
+}
+  
+aside h3{
+    font-size: 35px;
+    font-family: fantasy;
+    text-shadow: 2px 2px 4px coral;
+    color:blueviolet;
+}
+/*----------------------------------------*/
+/*Estilos página 4 Noticias.html*/
+
+.titular{
+    text-align: center;
+}
+
+h2{
+    font-family: Norican, cursive; 
+    font-weight: 800;
+    font-size: 70px;
+    color:blueviolet;    
+}
+
+.cuerpo{
+    padding: 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid brown;       
+}
+
+article div{
+    flex: auto;
+    margin: 10px 20px;
+}
+
+.cuerpo div{
+    text-align: justify;
+    clear: both; 
+}
+
+.cuerpo h4{
+    text-align: center;
+    margin-top: 0;
+    font-family: Norican, cursive;
+}
+
+div h4{
+    display:block;
+    font-size: 42px;
+    color:brown;
+}
+
+p{
+    display:block;
+    line-height: 2;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.cuerpo a{
+    float: right;
+}
+
+.boton{
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: dotted underline;
+    border-radius: 10px;
+    background-color: brown;
+    color: whitesmoke;
+}
+
+.fondo{
+    display: inline;
+}
+/*---------------------------------*/
+/*----Estilos página 5-Contacto------*/
+
+.formulario{
+    display:inline;
+    justify-content:flex-start;
+    width: 45%;
+    height: auto;
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+form{
+    padding: 20px 10px;
+    margin-left: 25px;
+    border-radius: 10px;
+    flex-basis: 50%;
+}
+
+h4{
+    font-family: Norican, cursive;
+    line-height: 1;
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 15px;
+    font-size:large;
+}
+
+.form-datos{
+    width: 70%;
+    height: 20px;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.redes{
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid brown;  
+}
+
+aside h4{
+    text-align: center;
+}
+
+aside li{
+    margin-left: 15px;
+    margin-top: 45px;
+    line-height: 20px;
+    text-shadow: 5px 5px 3px chocolate;
+    font-size: 55px;
+    font-family: Norican, cursive;
+    color:blueviolet;
+    padding: 20px;
+}
+
+button select{
+    cursor: pointer;
+    background-color: darkgray;
+}
+
+.logo-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20%;   
+}
+
+.ul-form{
+    flex-direction: row;
+    display: inline block;
+}
+
+.boton{
+    padding: 10px 10px;
+    background-color: cadetblue;
+    color:brown;
+    border-radius: 10px;
+    font-size: 1.5em;
+    text-decoration: dotted double; 
+}
+
+form .boton {
+    margin-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    float: right;
+}
+
+/*-----------------------------------------------*/
+
+/*-------------Estilos genéricos-----------------*/
+
+/*Se define estilo de footer*/
+.piepagina{
+    font-style: oblique;
+    font-size: small;
+    font-family: Norica, cursive;
+    background-color:rgb(155, 196, 198);
+    display: flex;
+    justify-content: center;
+    padding: 30px 40px;
+    border-radius: 10px;
+
+}
+
+/*Main*/
+main {
+    display: flex;
+    flex-flow:nowrap
+}
+
+/*Section*/
+section{
+    flex:75%;
+    padding: 20px 0; 
+}  
+
+/*article*/
+article{
+    display: flex;  
+}
+
+/*Nav-Menú de navegación*/
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 0px;
+    background-color:cadetblue;
+}
+
+nav a{
+    color:blueviolet;
+    border-radius: 10px;
+    text-decoration: underline;
+    font-family: Norican, cursive;
+    padding: 10px 20px;
+    margin-left: 5px;    
+}
+
+/*Body*/
+body{
+    background-color:antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+h1{
+    font-family:Norican, cursive;
+    font-style: italic;
+    font-size: 55px;
+    color: indianred;
+    display:flex;
+    justify-content: center;
+    background-color:rgb(155, 196, 198);
+    padding: 30px 40px;
+    border-radius: 10px;      
+}
